@@ -475,4 +475,39 @@ img {
   line-height: 45px;
   color: #404242;
   padding-bottom: 50px;
+}
+
+.works {
+  padding-top: 120px;
+}
+.works__heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 105px;
+  text-align: center;
+  color: #1C2323;
+  padding-bottom: 20px;
+}
+.works__desc {
+  margin: 0;
+  padding: 0;
+  max-width: 509px;
+  min-height: 90px;
+  margin: auto;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #404242;
+  padding-bottom: 71px;
+}
+.works__center {
+  padding-bottom: 150px;
+}
+.works__ovel {
+  position: absolute;
+  left: 1110px;
+  top: 1490px;
 }/*# sourceMappingURL=main.css.map */
