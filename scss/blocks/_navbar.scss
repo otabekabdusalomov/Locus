@@ -1,0 +1,31 @@
+.sitenav{
+    margin-left: auto;
+    margin-right: auto;
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item + &__item {
+        margin-left: 85px;
+    }
+    &__link{
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 38px;
+        color: #404242;
+        transition: 0.3s;
+    }
+    &__link:hover{
+        opacity: 0.4;
+    }
+    &__link:hover{
+        opacity: 0.8;
+    }
+
+    &__link-one{
+        color: #58A9A5;
+        border-bottom: 3px solid #FEC62D;
+    }
+}

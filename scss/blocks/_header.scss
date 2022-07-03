@@ -1,0 +1,18 @@
+.header{
+    padding-top: 85px;
+    padding-bottom: 105px;
+     &__container{
+         display: flex;
+         align-items: center;
+     }
+    &__logo{
+        flex-shrink: 0;
+        transition: 0.3s;
+    }
+    &__logo:hover{
+        opacity: 0.8;
+    }
+    &__logo:active{
+        opacity: 0.4;
+    }
+}

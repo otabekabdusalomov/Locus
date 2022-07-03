@@ -1,0 +1,28 @@
+.hero{
+    &__container{
+        display: flex;
+        align-items: center;
+    }
+    &__box{
+        max-width: 743px;
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 105px;
+        color: #1C2323;
+        padding-bottom: 50px;
+       
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 45px;
+        color: #404242;
+        padding-bottom: 50px;
+    }
+}
