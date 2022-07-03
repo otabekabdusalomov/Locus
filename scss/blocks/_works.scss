@@ -25,10 +25,28 @@
     }
     &__center{
         padding-bottom: 150px;
+        display: flex;
+        justify-content: space-between;
     }
     &__ovel{
         position: absolute;
         left: 1110px;
         top: 1490px;
+    }
+    &__center-left{
+        max-width: 849px;
+        background: #CCF0E6;
+    }
+    &__center-left-heading{
+        max-width: 328px;
+        padding-top: 71px;
+        padding-bottom: 41px;
+        
+    }
+    &__span{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #486958;
     }
 }

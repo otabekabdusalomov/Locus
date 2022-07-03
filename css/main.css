@@ -505,9 +505,26 @@ img {
 }
 .works__center {
   padding-bottom: 150px;
+  display: flex;
+  justify-content: space-between;
 }
 .works__ovel {
   position: absolute;
   left: 1110px;
   top: 1490px;
+}
+.works__center-left {
+  max-width: 849px;
+  background: #CCF0E6;
+}
+.works__center-left-heading {
+  max-width: 328px;
+  padding-top: 71px;
+  padding-bottom: 41px;
+}
+.works__span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #486958;
 }/*# sourceMappingURL=main.css.map */
